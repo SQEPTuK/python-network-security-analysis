@@ -55,7 +55,7 @@ suricata_eve.jsonl
 
 -   `final_security_monitor.py` - основной скрипт анализа
 -   `suricata_eve.jsonl` - входные данные (логи Suricata)
--   `report.csv` — таблица результатов анализа
--   `report.json` — отчёт в формате JSON
--   `top_suspicious_ips.png` — график подозрительных IP
+-   `report.csv` - таблица результатов анализа
+-   `report.json` - отчёт в формате JSON
+-   `top_suspicious_ips.png` - график подозрительных IP
 -   `README.md` - описание проекта
