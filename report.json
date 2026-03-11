@@ -1,0 +1,50 @@
+{
+  "suspicious_ips": [
+    {
+      "src_ip": "192.0.2.44",
+      "dns_queries": 3,
+      "alert_count": 1,
+      "suspicion_score": 6,
+      "vt_malicious": 5,
+      "vt_suspicious": 1,
+      "data_source": "demo_virustotal"
+    },
+    {
+      "src_ip": "203.0.113.10",
+      "dns_queries": 3,
+      "alert_count": 1,
+      "suspicion_score": 6,
+      "vt_malicious": 7,
+      "vt_suspicious": 2,
+      "data_source": "demo_virustotal"
+    }
+  ],
+  "critical_vulnerabilities": [
+    {
+      "id": "CVE-2024-21762",
+      "title": "Fortinet FortiOS SSL VPN Out-of-Bounds Write",
+      "cvss": 9.6,
+      "published": "2024-02-08T00:00:00",
+      "source": "demo_vulners"
+    },
+    {
+      "id": "CVE-2023-22527",
+      "title": "Atlassian Confluence Template Injection",
+      "cvss": 10.0,
+      "published": "2024-01-16T00:00:00",
+      "source": "demo_vulners"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "title": "PAN-OS GlobalProtect Command Injection",
+      "cvss": 10.0,
+      "published": "2024-04-12T00:00:00",
+      "source": "demo_vulners"
+    }
+  ],
+  "summary": {
+    "total_suspicious_ips": 2,
+    "total_critical_vulnerabilities": 3,
+    "suricata_records_analyzed": 10
+  }
+}

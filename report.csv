@@ -1,0 +1,6 @@
+﻿src_ip,dns_queries,alert_count,suspicion_score,vt_malicious,vt_suspicious,data_source,record_type,id,title,cvss,published,source
+192.0.2.44,3.0,1.0,6.0,5.0,1.0,demo_virustotal,suspicious_ip,,,,,
+203.0.113.10,3.0,1.0,6.0,7.0,2.0,demo_virustotal,suspicious_ip,,,,,
+,,,,,,,critical_vulnerability,CVE-2024-21762,Fortinet FortiOS SSL VPN Out-of-Bounds Write,9.6,2024-02-08T00:00:00,demo_vulners
+,,,,,,,critical_vulnerability,CVE-2023-22527,Atlassian Confluence Template Injection,10.0,2024-01-16T00:00:00,demo_vulners
+,,,,,,,critical_vulnerability,CVE-2024-3400,PAN-OS GlobalProtect Command Injection,10.0,2024-04-12T00:00:00,demo_vulners

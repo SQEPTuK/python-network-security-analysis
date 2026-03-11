@@ -1,0 +1,10 @@
+{"timestamp":"2026-03-10T10:00:00.000000+0300","event_type":"dns","src_ip":"203.0.113.10","dest_ip":"8.8.8.8","dns":{"rrname":"malicious-example.com","type":"query"}}
+{"timestamp":"2026-03-10T10:00:03.000000+0300","event_type":"dns","src_ip":"203.0.113.10","dest_ip":"8.8.8.8","dns":{"rrname":"malicious-example.com","type":"query"}}
+{"timestamp":"2026-03-10T10:00:07.000000+0300","event_type":"dns","src_ip":"203.0.113.10","dest_ip":"8.8.8.8","dns":{"rrname":"malicious-example.com","type":"query"}}
+{"timestamp":"2026-03-10T10:00:15.000000+0300","event_type":"alert","src_ip":"203.0.113.10","dest_ip":"10.0.0.5","alert":{"signature":"ET TROJAN Possible C2 Traffic"}}
+{"timestamp":"2026-03-10T10:01:00.000000+0300","event_type":"dns","src_ip":"198.51.100.25","dest_ip":"1.1.1.1","dns":{"rrname":"update-server.example","type":"query"}}
+{"timestamp":"2026-03-10T10:01:15.000000+0300","event_type":"dns","src_ip":"198.51.100.25","dest_ip":"1.1.1.1","dns":{"rrname":"update-server.example","type":"query"}}
+{"timestamp":"2026-03-10T10:02:00.000000+0300","event_type":"alert","src_ip":"192.0.2.44","dest_ip":"10.0.0.10","alert":{"signature":"ET POLICY Suspicious DNS Tunneling"}}
+{"timestamp":"2026-03-10T10:02:04.000000+0300","event_type":"dns","src_ip":"192.0.2.44","dest_ip":"9.9.9.9","dns":{"rrname":"weird-long-domain.example","type":"query"}}
+{"timestamp":"2026-03-10T10:02:06.000000+0300","event_type":"dns","src_ip":"192.0.2.44","dest_ip":"9.9.9.9","dns":{"rrname":"weird-long-domain.example","type":"query"}}
+{"timestamp":"2026-03-10T10:02:08.000000+0300","event_type":"dns","src_ip":"192.0.2.44","dest_ip":"9.9.9.9","dns":{"rrname":"weird-long-domain.example","type":"query"}}
